@@ -45,7 +45,7 @@ DB_PORT=5432
 
 # Gemini API Key
 GEMINI_API_KEY=your-gemini-api-key
-
+```
 
 
 ## Installation
