@@ -5,6 +5,7 @@ const BlogCard = ({blog}) => {
   const imageUrl = blog.thumbnail.startsWith('http')
     ? blog.thumbnail
     : `http://localhost:8000${blog.thumbnail}`
+    console.log(blog.thumbnail)
 
   return (
     <div className='blog-card'>
